@@ -1,0 +1,5 @@
+#!/usr/bin/lina64 -s
+WANT PRIME?
+0
+1 ARG[] EVALUATE 2 DO I PRIME? IF 1+ THEN LOOP
+. CR
