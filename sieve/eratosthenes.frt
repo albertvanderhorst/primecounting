@@ -1,7 +1,8 @@
 \ $Id: eratosthenes.frt,v 1.3 2015/01/31 18:45:53 albert Exp $
 \ Copyright (2008): Albert van der Horst {by GNU Public License
 
-\ projecteuler.net Problem 196 30 May 2008
+\ ciforth specific sieve using a namespace for information hiding.
+\ Requires version 5.0 or later.
 
 NAMESPACE eratosthenes
 
@@ -48,3 +49,6 @@ DATA primes     \ to be realloced.
     PREVIOUS DEFINITIONS
   ALIAS init-era
 ALIAS prime?
+
+\ Count the primes up to SIZE, return the COUNT.
+: pi   0 SWAP 1+ 1 DO I prime? + LOOP ;

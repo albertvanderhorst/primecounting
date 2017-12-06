@@ -1,6 +1,5 @@
-  Lucy hedgehog's trick.
-# S(n) is the sum of primes
-# S(n) is a property
+# Lucy hedgehog's trick.
+# S(n) is the number of primes
 
 def index(n,v,r):
     if v<=r:
@@ -26,7 +25,7 @@ def P10(n):
         if S2[index(n,p,r)] > S2[index(n,p-1,r)]:  # p is prime
             print p
             #print S[p], S2[index(n,p,r)]
-            #sp = S2[index(n,p-1,r)]  # sum of primes smaller than p
+            #sp = S2[index(n,p-1,r)]  # number of primes smaller than p
             sp2 = S2[index(n,p-1,r)]
             p2 = p*p
             #S2[index(n,n,r)] -= (S2[index(n,n//p,r)] - sp2)

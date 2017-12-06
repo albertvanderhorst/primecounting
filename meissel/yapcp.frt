@@ -124,7 +124,7 @@ RDROP ;
 
 \ Redefine with error detection (outside of recursion).
 \ Only needed if you trimmed max-table!
-\ : PI   DUP MAX-TABLE DUP * > IF ." Too large!  " 13 ERROR THEN   PI ;
+: PI   DUP MAX-TABLE DUP * > IF ." Too large!  " 13 ERROR THEN   PI ;
 
 \ ---  TEST ---
 
