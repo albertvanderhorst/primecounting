@@ -31,18 +31,27 @@ You may not trust a compiler from an unknown source.
 For some compilers the source is given such that you can inspect it
 and build the compiler yourself.
 
+Extensions
+none : linux executable, may run on OSX.
+.exe : MS-Window executable.
+.f : standard Forth, should be includable by SwiftForth or gforth
+.frt : intended for ciforth (lina/wina), uses idiosyncracies.
+.py : python, version 2 or 3.
+
+Files beginning with `` #! '' are linux style scripts.
+The first line tells what interpreter you need.
+
 Build and run.
 Use the usual compilers with the usual extension.
 Many files are in Forth. The extension fs (Forth stream)
 runs on gforth and probably most ISO standard Forth compilers.
 The extension .frt means ciforth https://github.com/albertvanderhorst/ciforth
 
-Files beginning with `` #! '' are linux style scripts.
 Without extensions are executable for 64 bit linux. You can compile
 those yourself.
 
-WARNING: Those programs use a lot of memory. You may instruct your compiler
-to use more memory.
+WARNING: Those programs use a lot of memory. You may need to
+instruct your compiler to use more memory.
 
 Copyright
 Copyright GPL2 is an indication. If a file contains a copyright
