@@ -1,4 +1,4 @@
-## primecounting
+# primecounting
 This is a collection of programs to count how many prime numbers there are under a given number.
 
 Sometimes a property is mentionned. They are explained in the wiki, not this
@@ -20,7 +20,7 @@ There are several techniques:
 - dynamic : Use the legendre property to reuse sieving results without
   actually sieving. This is a form of dynamic programming.
 
-#Languages
+## Languages
 Programs are written in i.a. Python , C , Forth , Pascal , FORTRAN.
 Not all programs have already been uploaded.
 For some programs there is a binary available, with a note for
@@ -31,7 +31,7 @@ You may not trust a compiler from an unknown source.
 For some compilers the source is given such that you can inspect it
 and build the compiler yourself.
 
-#Extensions
+## Extensions
 
 none : linux executable, may run on OSX.
 
@@ -46,7 +46,7 @@ none : linux executable, may run on OSX.
 Files beginning with `` #! '' are linux style scripts.
 The first line tells what interpreter you need.
 
-#Build and run.
+## Build and run.
 Use the usual compilers with the usual extension.
 Many files are in Forth. The extension fs (Forth stream)
 runs on gforth and probably most ISO standard Forth compilers.
@@ -58,7 +58,7 @@ those yourself.
 WARNING: Those programs use a lot of memory. You may need to
 instruct your compiler to use more memory.
 
-#Copyright
+## Copyright
 Copyright GPL2 is an indication. If a file contains a copyright
 notice it is overruling.
 
